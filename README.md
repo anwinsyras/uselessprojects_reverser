@@ -19,3 +19,5 @@ The Word Reverser is a fun application that takes a sentence and reverses each w
 version 1.0
 basic word reversing functionality
 ![WhatsApp Image 2024-11-02 at 7 16 22 PM (1)](https://github.com/user-attachments/assets/cb0cb5b0-80e2-4d52-b96a-8b2caa87f755)
+version 2.0
+added case randomization
