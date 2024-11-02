@@ -2,6 +2,7 @@ word reverser
 The Word Reverser is a fun application that takes a sentence and reverses each word. It adds a twist by randomizing letter cases and providing sarcastic comments on the input.
 
 Ui
+
 ![WhatsApp Image 2024-11-02 at 7 48 56 PM](https://github.com/user-attachments/assets/3f0340ad-5982-4c5c-9fe1-401e53a58f78)
 
 
