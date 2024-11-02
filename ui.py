@@ -1,47 +1,48 @@
 import customtkinter as ctk
-from functions import reverse_word, get_character_count
+from functions import reverse_words  # Import the function
 
-# Initialize the main window
-app = ctk.CTk()
-app.title("Word Reverser (Version 2)")
+# Initialize the customtkinter app
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
 
-
-# Function to handle the reverse button click
+# Callback function to handle button click
 def on_reverse_click():
-    input_text = input_entry.get()
-    reversed_text = reverse_word(input_text)
-    char_count = get_character_count(input_text)
-
-    # Update the output label with the reversed text and character count
-    result_label.configure(text=f"Reversed Text: {reversed_text}")
-    char_count_label.configure(text=f"Character Count: {char_count}")
+    text = input_entry.get()
+    reversed_text = reverse_words(text)
+    result_label.configure(text=reversed_text)
 
 
-# Function to handle the clear button click
-def on_clear_click():
-    input_entry.delete(0, 'end')
-    result_label.configure(text="Reversed Text: ")
-    char_count_label.configure(text="Character Count: ")
+# Set up the main window
+app = ctk.CTk()
+app.title("Word Reverser version1.2")
+app.geometry("500x400")
+app.resizable(False, False)
 
+# Title label
+title_label = ctk.CTkLabel(app, text="Word Reverser", font=("Arial", 24, "bold"))
+title_label.pack(pady=20)
 
-# Input field
-input_entry = ctk.CTkEntry(app, width=300, placeholder_text="Enter a word")
-input_entry.pack(pady=10)
+# Instruction label
+instruction_label = ctk.CTkLabel(app, text="Enter a sentence to reverse each word:", font=("Arial", 16))
+instruction_label.pack(pady=10)
 
-# Reverse button
-reverse_button = ctk.CTkButton(app, text="Reverse", command=on_reverse_click)
-reverse_button.pack(pady=5)
+# Entry widget for text input
+input_frame = ctk.CTkFrame(app, corner_radius=10)
+input_frame.pack(pady=10, padx=20, fill="x")
 
-# Clear button
-clear_button = ctk.CTkButton(app, text="Clear", command=on_clear_click)
-clear_button.pack(pady=5)
+input_entry = ctk.CTkEntry(input_frame, width=400, font=("Arial", 14))
+input_entry.pack(pady=10, padx=10)
 
-# Labels for displaying results
-result_label = ctk.CTkLabel(app, text="Reversed Text: ")
-result_label.pack(pady=5)
+# Button to trigger the reversal
+reverse_button = ctk.CTkButton(app, text="Reverse Words", command=on_reverse_click, width=150, height=40, font=("Arial", 14, "bold"))
+reverse_button.pack(pady=20)
 
-char_count_label = ctk.CTkLabel(app, text="Character Count: ")
-char_count_label.pack(pady=5)
+# Label to display the result
+result_frame = ctk.CTkFrame(app, corner_radius=10)
+result_frame.pack(pady=10, padx=20, fill="x")
 
-# Start the GUI event loop
+result_label = ctk.CTkLabel(result_frame, text="", font=("Arial", 14), wraplength=450, anchor="w", justify="left")
+result_label.pack(pady=10, padx=10)
+
+# Run the GUI loop
 app.mainloop()
