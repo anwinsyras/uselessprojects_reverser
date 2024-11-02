@@ -1,6 +1,10 @@
 word reverser
 The Word Reverser is a fun application that takes a sentence and reverses each word. It adds a twist by randomizing letter cases and providing sarcastic comments on the input.
 
+Ui
+![WhatsApp Image 2024-11-02 at 7 48 56 PM](https://github.com/user-attachments/assets/3f0340ad-5982-4c5c-9fe1-401e53a58f78)
+
+
 - Reverse each word in a sentence
 - Randomize letter cases
 - Provide sarcastic commentary on the input
@@ -20,9 +24,15 @@ version 1.0
 basic word reversing functionality
 ![WhatsApp Image 2024-11-02 at 7 16 22 PM (1)](https://github.com/user-attachments/assets/cb0cb5b0-80e2-4d52-b96a-8b2caa87f755)
 
-version 2.0
+version 1.1
 basic word reversing functionality and count the characters
 ![WhatsApp Image 2024-11-02 at 7 39 17 PM](https://github.com/user-attachments/assets/4318cdc5-4ad8-4a4a-ab32-b1c2fef855bd)
+
+version 1.2
+included sarcastic commentary feature
+
+![WhatsApp Image 2024-11-02 at 7 51 54 PM](https://github.com/user-attachments/assets/f8670156-8259-44b2-af19-163c2e30d44c)
+![WhatsApp Image 2024-11-02 at 7 53 39 PM](https://github.com/user-attachments/assets/735d900d-ff80-48fb-a5b0-35f15921b5a8)
 
 
 
