@@ -1,9 +1,16 @@
+# Tinkerhub Useless Projects Hackaton CUCEK
+
 # Word Reverser
 
 The Word Reverser is a fun application that takes a sentence and reverses each word. It adds a twist by randomizing letter cases and providing sarcastic comments on the input.
 
- hosted link: https://anwinsyras.github.io/uselessprojects_reverser/
- video proof:https://drive.google.com/file/d/1nrFlDvnxIrFsdPiKbpdJR3m5hf0Kbp_9/view?usp=drivesdk
+# Hosted Link: https://anwinsyras.github.io/uselessprojects_reverser/
+# Video Proof: https://drive.google.com/file/d/1nrFlDvnxIrFsdPiKbpdJR3m5hf0Kbp_9/view?usp=drivesdk
+
+# Team Details 
+Feby Sara Wilson S3 MCA
+Anwin Syras S1 MCA
+
 
 # Ui
 
