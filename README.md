@@ -2,6 +2,9 @@
 
 The Word Reverser is a fun application that takes a sentence and reverses each word. It adds a twist by randomizing letter cases and providing sarcastic comments on the input.
 
+ hosted link: https://anwinsyras.github.io/uselessprojects_reverser/
+ video proof:https://drive.google.com/file/d/1nrFlDvnxIrFsdPiKbpdJR3m5hf0Kbp_9/view?usp=drivesdk
+
 # Ui
 
 ![WhatsApp Image 2024-11-02 at 7 48 56 PM](https://github.com/user-attachments/assets/3f0340ad-5982-4c5c-9fe1-401e53a58f78)
